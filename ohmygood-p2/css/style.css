@@ -1,0 +1,350 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(49, 49, 49);
+    padding: none;
+    margin: auto;
+    max-width: 500px;
+}
+
+header {
+    background-color: rgb(221, 221, 221);
+    padding: 20px;
+    max-width: 500px;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header img {
+    width: 90px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    float:inline-start;
+ }
+
+main {
+    max-width: 500px;
+    margin: auto;
+}
+main img {
+    display: block;
+    width: 100%;
+    max-width: 700px;
+    position:relative
+}
+
+main h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+main p {
+    font-size: 25px;
+    color: rgb(75, 74, 74);
+    font-family: 'Inter', sans-serif;
+    font-weight: 200;
+    margin: 0;
+    padding: 0;
+    display: inline;
+    font-weight: 100;
+}
+
+.container {
+    background-color: rgb(221, 221, 221);
+    margin-top: -30px;
+    padding-top: 30px;
+    padding-bottom: 150px;
+    border-top-right-radius: 2em;
+    border-top-left-radius: 3em;
+    position: relative;
+    z-index: 0.5;
+}
+
+
+.menu-box {
+    background-color:rgb(221, 221, 221);
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.menu-item {
+    background-color: rgb(255, 255, 255);
+    padding-top: 0px;
+    padding-bottom: 1px;
+    padding-left: 10px;
+    padding-right: 8px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-style: none;
+    border-radius: 1.5em;
+    box-shadow: 30px 0px 40px rgb(0,0,0,0.1), -30px 0px 40px rgb(0,0,0,0.2);
+}
+
+.menu-item:hover {
+background-color: antiquewhite;
+}
+
+button {
+
+background-color: rgb(200, 61, 207);
+text-align: center;
+display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    width: 70%;
+color: white;
+padding: 19px 55px ;
+border-radius: 2em;
+transform: scale(1);
+transition-property: all;
+transition-duration: 200ms;
+font-family: 'Roboto', sans-serif;
+font-weight: 700;
+border-style: none;
+font-size: 17px;
+box-shadow: 30px 0px 40px rgb(0,0,0,0.1), -30px 0px 40px rgb(0,0,0,0.2);
+
+}
+
+button:hover {
+    background-color: rgb(202, 147, 212);
+    transform: scale(1.10);
+}
+
+
+.container-homepage {
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+}
+
+.card img {
+display: block;
+width: 100%;
+border-top-right-radius: 2em;
+border-top-left-radius: 2em;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+    background-color: rgb(255, 255, 255);
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 2em;
+    transition-property:all;
+    transition-duration: 200ms;
+    box-shadow: 1ems black;
+    box-shadow: 30px 0px 40px rgb(0,0,0,0.1), -30px 0px 40px rgb(0,0,0,0.2);
+
+}
+
+.card:hover {
+    transform: scale(0.9);
+}
+
+ .restaurant {
+    background-color: rgb(221, 221, 221);
+    margin: none;
+    padding: 20px;
+}
+
+
+.homesection {
+    background-color: rgb(247, 247, 247);
+    padding: 20px;
+    margin: none;
+}
+
+.homesection h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.homesection  h4 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.explore-list:hover {
+
+background-color: rgb(182, 119, 177);
+color: white;
+transform: scale(1.05)
+}
+
+.container-explore {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+
+}
+
+.explore-list {
+    border-radius: 2em;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    padding: 8px;
+    background-color: white;
+    transform: scale(1);
+    transition-property: all;
+    transition-duration: 200ms;
+    box-shadow: 20px 0px 30px rgb(0,0,0,0.1), -20px 0px 30px rgb(0,0,0,0.1);
+}
+
+
+
+.home-main {
+    background-color: rgb(221, 221, 221);
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 25px;
+    padding-top: 25px;
+    padding-bottom: 100px;
+    line-height: 40px;
+    box-shadow: 0px 0px 6px rgb(64, 64, 64);
+}
+
+nav {
+    background-color: rgb(159, 159, 159);
+    padding: 8px;
+    text-align: center;
+    margin: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    box-shadow: 0px 0px 8px rgb(28, 28, 28);
+
+}
+
+
+nav h3 {
+padding-left: 10px;
+}
+
+.card h2  {
+    padding-left: 25px;
+}
+
+.newyork  {
+    padding-left: 25px;
+    align-items: flex-end;
+    margin-top: -10px;
+    font-size: 20px;
+}
+
+footer {
+    height: 170px;
+    padding: 50px;
+    background-color: rgb(77, 77, 77);
+}
+
+ul li {
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 30px;
+    list-style-type: none;color: white;
+    text-align: left;
+    padding-left: 10px;
+
+}
+
+
+a {
+    text-decoration: none;
+    text-decoration-style: none;
+    text-emphasis-color: none;
+    color: black;
+}
+
+.container h1 {
+    font-family: 'Taviraj', serif;
+    font-weight: bolder;
+    padding-left: 20px;
+    font-size: 31px;
+   font-weight: 800;
+    display: inline-block;
+    float: left;
+    margin-right: 170px;
+}
+
+.container h2 {
+
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-family: 200;
+
+}
+
+.container p {
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    padding-left: 10px
+}
+
+.menu-item-name {
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    padding-left: 10px;
+    display: inline-block;
+    margin-top: 12px;
+
+}
+
+.menu-item-price {
+    text-align: end;
+    display: flex;
+    justify-content: end;
+    float: right;
+    align-items: flex-end;
+    font-size: 20px;
+    padding-right: 10px;
+    margin-top: 10px;
+}
+
+
+
+.material-symbols-outlined {
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    float: left;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+
+
+.menu-group-heading {
+    display: inline-block;
+    padding-bottom: 0.3em;
+    position: relative;
+}
+
+.menu-group-heading::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 70%;
+    height: 3px;
+    background: rgb(73, 195, 189);
+    transition: width 0.25s ease-out;
+}
+
